@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CancionesWebAPI.Models;
 
 namespace CancionesWebAPI.Data
 {
@@ -12,5 +13,6 @@ namespace CancionesWebAPI.Data
         {
 
         }
+        public DbSet<CancionesWebAPI.Models.Cancion> Cancion { get; set; }
     }
 }
